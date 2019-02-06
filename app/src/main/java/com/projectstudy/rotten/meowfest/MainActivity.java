@@ -21,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        AzureServiceAdapter.Initialize(this);
+
         endpoint = "https://chex-triplebyte.herokuapp.com/api/cats?page=0";
 
     }
