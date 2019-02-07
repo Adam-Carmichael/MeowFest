@@ -1,7 +1,7 @@
 package com.projectstudy.rotten.meowfest;
 
 import android.content.Context;
-import com.microsoft.windowsazure.mobileservices.*;
+import com.microsoft.windowsazure.mobileservices.MobileServiceClient;
 
 import java.net.MalformedURLException;
 
